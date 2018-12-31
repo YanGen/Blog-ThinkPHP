@@ -1,0 +1,448 @@
+[ 2018-12-30T14:06:39+08:00 ] ::1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: username D:\PhpProject\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-12-30T14:06:43+08:00 ] ::1 /Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:06:46+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-12-30T14:06:47+08:00 ] ::1 /Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-12-30T14:07:03+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `blog_admin` WHERE `username` = 'younger' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-12-30T14:07:06+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-12-30T14:07:18+08:00 ] ::1 /Admin/Login/verify?id=0.8233389888293499
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-12-30T14:07:18+08:00 ] ::1 /Admin/Login/verify?id=0.4990776686410079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-12-30T14:07:24+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `blog_admin` WHERE `username` = 'Younger' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-12-30T14:07:27+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-12-30T14:07:38+08:00 ] ::1 /Admin/Login/verify?id=0.15357686012788307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:07:47+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-30T14:07:50+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-12-30T14:08:25+08:00 ] ::1 /Admin/Login/verify?id=0.556044970897065
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:08:31+08:00 ] ::1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `blog_admin` WHERE `username` = 'Younger' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-12-30T14:08:33+08:00 ] ::1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-12-30T14:08:35+08:00 ] ::1 /Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.author AS author,Article.pic AS pic,Article.iread AS iread,Article.itime AS itime,Article.cateid AS cateid,Cate.title AS cate FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid ORDER BY Article.id asc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-12-30T14:08:39+08:00 ] ::1 /Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2018-12-30T14:09:32+08:00 ] ::1 /Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `blog_article` WHERE `title` = '辞旧迎新，习近平这样说：用行动宣示新时代改革决心' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto D:\PhpProject\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_article` (`title`,`content`,`desc`,`cateid`,`author`,`itime`) VALUES ('辞旧迎新，习近平这样说：用行动宣示新时代改革决心','&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;在时间的长河中，奋斗者的脚步永远不会停滞。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;时值年终岁末，在庆祝改革开放40周年、召开中央经济工作会议之后，今天，习近平总书记又做了一次重要讲话。在全国政协新年茶话会上，他总结2018年改革发展新成就，提出2019年工作新要求，展现着新时代改革者锐意进取、永不懈怠的精神状态，敢闯敢干、一往无前的奋斗姿态。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;“我们用行动宣示了在新时代将改革开放进行到底的坚定决心。”铿锵有力的话语，不仅在现场获得了热烈的掌声，更鼓舞了亿万人民在新一年的奋斗激情。这样的话语，最是直击人心，最是振奋人心！&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;回首2018年，我们改革开放的决心，正体现于在更高起点、更高层次、更高目标上推进改革开放的扎实举措中。一组数据，彰显新时代改革开放力度：这一年，中央全面深化改革委员会部署的78个重点改革任务和其他80个改革任务，基本完成；这一年，中央和国家机关有关部门，还完成了171个改革任务，各方面共出台329个改革方案。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;再往前看，十八届三中全会召开的5年来，改革开放大潮激荡，在神州大地书写了历史性变革和成就。在那次为新时代改革再出发做出顶层设计的重要会议上，15个领域、336项重大举措，涉及范围之广、力度之大，前所未有。5年来，336项重大改革举措中，已出台实施方案的，超过95%。从市场体制改革到宏观调控体制改革，从司法体制改革到教育体制改革……许多事关全局、前所未有的重大改革逐一推进，“将改革进行到底”成为振聋发聩的时代强音。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;重要的时间节点，是我们工作的坐标。环环相扣，才能节节取胜；步步为营，才能继往开来。2019年马上就要到来，我们将迎来新中国70华诞，这也是决胜全面建成小康社会关键之年。新一年，再出发，深化改革才有更大发展。我们仍需如总书记强调的，用我们的行动，宣示将改革开放进行到底的决心。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;在全国政协新年茶话会上，习近平总书记对未来一年的工作，做出重要部署、提出重要要求。“我们要崇尚学习、加强学习，崇尚创新、勇于创新，崇尚团结、增进团结，既抢抓发展机遇，又妥善应对挑战，鼓舞全党全国各族人民勇往直前、再创辉煌。”&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;以“大历史”的视野来看，今天的中国，面临世界百年未有之大变局，也处于重要战略机遇期。未来一年里，我们仍要把握一个指导思想——习近平新时代中国特色社会主义思想，仍要坚持一个工作总基调——稳中求进，仍要贯彻一个方针——巩固、增强、提升、畅通，仍要抓住一条主线——供给侧结构性改革。往前看，三大攻坚战任务繁重，决胜全面小康收官在即，各项工作任重道远，新的一年同样注定是不平凡的。只要坚定不移深化改革、扩大开放，就一定能在新的一年取得新的辉煌。&lt;/p&gt;&lt;p style=&quot;margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: &amp;quot;Microsoft Yahei&amp;quot;; text-indent: 2em; color: rgb(34, 34, 34); white-space: normal;&quot;&gt;全国政协新年茶话会最后，全场起立高唱《团结就是力量》，令人心潮澎湃。“团结就是力量，团结才能前进”，用行动展现我们的决心，用行动激荡复兴的气象，我们就一定能以优异成绩，向改革开放40周年致敬、为新中国成立70周年献礼。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','在时间的长河中，奋斗者的脚步永远不会停滞。','2','Younger','2018-12-30 02:09:32pm') [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-12-30T14:09:34+08:00 ] ::1 /Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.author AS author,Article.pic AS pic,Article.iread AS iread,Article.itime AS itime,Article.cateid AS cateid,Cate.title AS cate FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid ORDER BY Article.id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-12-30T14:53:57+08:00 ] ::1 /Admin/Article/upd?cateid=2&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_cate` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2018-12-30T14:54:28+08:00 ] ::1 /Admin/Article/upd?cateid=2&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: UPDATE `blog_article` SET `title`='辞旧迎新，习近平这样说：用行动宣示新时代改革决心',`content`='&lt;header&gt;&lt;h1 class=&quot;entry-title&quot; style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 2rem; font-style: inherit; margin: 35px 0px 0px; outline: 0px; padding: 5px 0px; vertical-align: baseline; position: relative; line-height: 30px; text-align: center;&quot;&gt;关于本站&lt;/h1&gt;&lt;/header&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;一：关于本站&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;CAD自学网（www.cadzxw.com），专业的CAD自学网站，CAD类网站的领跑者，力争做一个有态度的设计类知名网站。&lt;/strong&gt;始建于2015年，由2011年创建的CAD自学网论坛改建而来，初衷是建一个非盈利性的CAD软件学习与分享交流网站，由于近2年的发展，网站访问量越来越来，用户需求不断扩大，网站正在不断向以CAD为主，其他设计类软件为辅迈进！为了让网站能够正常的运营并不断成长，站内存在联盟广告和VIP会员资料，感谢各位访客朋友的理解与支持！&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;本站官方微信公众号&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em; text-align: center;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(255, 0, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;强烈推荐大家关注下方微信二维码，每天推送各种干货！&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;img class=&quot;size-full aligncenter&quot; src=&quot;http://img.cadzxw.com/img/cadzxw/cadzxw.jpg_ThumbnailsWatermark&quot; alt=&quot;关于本站&quot; width=&quot;220&quot; height=&quot;220&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em; text-align: center;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(255, 0, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;关注方法：微信扫描上图二维码或搜索cadzxw（CAD自学网）关注。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;二、为什么做网站，以及坚持到现在的理由？&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;一、基本是兴趣爱好，义务的，既然是非商业的，就是自费买域名和空间为人民服务，入不敷出，因为过滤页面广告的人多，广告费几乎没有，大部分都投入服务器及技术托管！&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;二、都是利用业余时间来维护网站更新的… 听起来好简单是吧…&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;实际上，要想时时保持最新，不但业余时间全用上，而且节假日时间，甚至工作时间都用上，这还不包括吃饭、（包括路上的时间和提前就位等待的时间），和家人、朋友相处等等…..&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;而用户只需要来这里学习就行了，并且免费，没看到什么感兴趣的、更新不及时，还会被骂。&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;我背后要做：上传（网速慢的时候几小时也传不上来）、下载、教程的收集、整理，发布以及撰写…… 技术不够用还要去找资料、向高人请教，还要等待人家的回复，万一不理你，你还得继续找… 这一整套下来，剩余时间为负。这里面任何一项也都绝对不是分分钟就能够完成。&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;摊子已经铺得太大，一般人早已崩溃。可这一切我其实都可以不做。没有人要求我做这些。可我喜欢分享，这就是我的乐趣所在。我还喜欢学习不懂的技术，虽然我的基础非常有限，但是每天前进一小步而不是后退一小步，感觉就够了。&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;so… 做网站的人不容易；做个人网站的更不容易——且行且珍惜…貌似现在很流行这句话...&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;三、本站资源免责声明&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;本站所有资源及软件来自互联网，版权归原公司或作者所有！原创类教程仅为站长兴趣研究，仅供免费参考之用，不得用于任何商业用途，转载请注明来源！下载本站资源或软件试用后请24小时内删除，因下载本站资源或软件造成的损失，全部由使用者本人承担！如发现本站资源或软件有侵犯您的权益，请附上版权证明联系站长删除，谢谢！&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;四、商业合作&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;因网站正常发展需要，本站承接与设计类相关合作，有意者联系站长！&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;五、赞助本站&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;如果您觉得本站对您有帮助，感谢赞助，我们将赞助的收入用于提升服务器性能和网站内容建设，更好的服务用户，谢谢！（赞助功能开通于2017/1/8），赞助用户有意留名的可在赞助时留名，以方便公示。由于保护用户隐私，我们将会只显示赞助用户的部分信息，谢谢！&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;支付宝扫一扫赞助：&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;img class=&quot;size-full aligncenter&quot; src=&quot;http://img.cadzxw.com/img/cadzxw/zszfb.png_ThumbnailsWatermark&quot; alt=&quot;关于本站&quot; width=&quot;220&quot; height=&quot;220&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;微信扫一扫赞助：&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;img class=&quot;size-full aligncenter&quot; src=&quot;http://img.cadzxw.com/img/cadzxw/zswxqb.png_ThumbnailsWatermark&quot; alt=&quot;关于本站&quot; width=&quot;220&quot; height=&quot;220&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(255, 0, 0);&quot;&gt;赞助用户&lt;/span&gt;&lt;/strong&gt;：。。。&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;六、联系方式&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;Email&lt;/strong&gt;：cadzxw#qq.com（#换成@）&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;QQ&lt;/strong&gt;：1 3 0 0 3 3 4 8 9 6（QQ号）&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;Wechat&lt;/strong&gt;：cadzxwcom01（微信号）&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;&quot;&gt;七、其他相关说明&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;1、本站所有压缩包&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;解压密码&lt;/span&gt;均为：&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(255, 0, 0);&quot;&gt;www.cadzxw.com&lt;/span&gt;(没错!就是红色部分这个网址!)&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;2、如果你有问题，请先使用本站&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(255, 0, 0);&quot;&gt;右上角&lt;/span&gt;的&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;搜索功能&lt;/span&gt;，也许这个可以更快的帮到您!&lt;/p&gt;&lt;p style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; margin-top: 0px; margin-bottom: 12px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; text-indent: 2em;&quot;&gt;3、申请&lt;span style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; background-color: rgb(255, 255, 0);&quot;&gt;友情链接&lt;/span&gt;的朋友请到&lt;a href=&quot;http://www.cadzxw.com/links.html&quot; style=&quot;box-sizing: inherit; border: 0px; font-family: inherit; font-style: inherit; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: rgb(54, 144, 207); text-decoration-line: none; -webkit-tap-highlight-color: rgba(255, 0, 0, 0);&quot;&gt;友情链接&lt;/a&gt;申请页面申请，该页面一律不处理，谢谢配合!&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`desc`='在时间的长河中，奋斗者的脚步永远不会停滞。',`cateid`='2',`author`='Younger' WHERE ( id=12 ) [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-12-30T14:54:29+08:00 ] ::1 /Admin/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.author AS author,Article.pic AS pic,Article.iread AS iread,Article.itime AS itime,Article.cateid AS cateid,Cate.title AS cate FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid ORDER BY Article.id asc LIMIT 0,5   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

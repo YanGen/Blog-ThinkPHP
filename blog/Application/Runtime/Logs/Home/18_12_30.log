@@ -1,0 +1,154 @@
+[ 2018-12-30T14:00:39+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `blog_web_notice` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_web_notice` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0030s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.author AS author,Article.pic AS pic,Article.iread AS iread,Article.itime AS itime,Article.cateid AS cateid,Cate.title AS cate FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid LIMIT 3   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: desc D:\PhpProject\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.212000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2018-12-30T14:00:44+08:00 ] ::1 /Home/article/detail.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `blog_article` SET `iread`='10' WHERE ( id=11 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_web_notice` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_web_notice` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\PhpProject\Application\Home\Controller\ArticleController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:00:51+08:00 ] ::1 /Home/article/logo.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+
+[ 2018-12-30T14:09:40+08:00 ] ::1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `blog_web_notice` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_web_notice` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0020s ]
+SQL: SELECT Article.id AS id,Article.title AS title,Article.author AS author,Article.pic AS pic,Article.iread AS iread,Article.itime AS itime,Article.cateid AS cateid,Cate.title AS cate FROM blog_article Article LEFT JOIN blog_cate Cate ON Cate.id=Article.cateid LIMIT 3   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: desc D:\PhpProject\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Undefined index: desc D:\PhpProject\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:09:43+08:00 ] ::1 /Home/article/detail.html?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `blog_article` SET `iread`='1' WHERE ( id=12 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_web_notice` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_web_notice` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\PhpProject\Application\Home\Controller\ArticleController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-12-30T14:54:31+08:00 ] ::1 /Home/article/detail.html?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_article` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `blog_article` SET `iread`='2' WHERE ( id=12 ) [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `blog_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_link` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_web_notice` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_web_notice` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\PhpProject\Application\Home\Controller\ArticleController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
